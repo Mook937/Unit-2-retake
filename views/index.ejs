@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit 2 Retake</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>LIST OF FRUITS</h1>
+        <ul>
+            <% Fruits.forEach(f => { %>
+        <li><%= f.fruit %>
+        
+        </l1>
+            <% }); %>
+        </ul>
+        <form action="/fruits" method="POST">
+        <input type="text" name="fruit">
+        <button type="submit" value="ADD FRUIT">GOT FRUIT?</button>
+        </form>
+    </body>
+</html>
